@@ -9,7 +9,7 @@ Symmetric Encryption: The same key is used for both encrypting and decrypting th
 Asymmetric Encryption: The keys to encrypt and decrypt the data are different. In short, there is no pre-shared key between the receiver and the transmitter. In this metholdogy, a key pair is used:public key and private key. They are mathematically relational but they can not be derived from each other. Meaning in that, one can not be used to derive the other.
 The key-pair consists of a private key and a public key. The public key(shared key) of the remote end is used to encrypt a data blob. The encrypted data blob is decrypted by the remote using its own private key. 
 
-**What is Block Cipher**<br>
+**What is Block Cipher?**<br>
 The block cipher is the thing that takes the block of plain text and generates the cipher text using the key.
 There are different ways of generating the block cipher.<br>
 Assuming that AES is considered as the block cipher, the block size must be multiples of 128 bits even though the key size can be 128 / 192 / 256 bits.<br>
